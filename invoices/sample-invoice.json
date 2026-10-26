@@ -1,0 +1,9 @@
+{
+  "invoiceNumber": "INV-2026-0142",
+  "supplier": "Example Supplier GmbH",
+  "vatNumber": "DE811569869",
+  "iban": "LT121000011101001000",
+  "amountEur": 4870.0,
+  "issueDate": "2026-11-02",
+  "paymentTermDays": 30
+}

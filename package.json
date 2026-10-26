@@ -1,0 +1,27 @@
+{
+  "name": "x402-invoice-precheck-example",
+  "version": "0.1.0",
+  "private": true,
+  "description": "An accounts-payable agent that pre-checks EU invoices (VIES VAT, IBAN, country match, due date) before paying, via x402 micropayments.",
+  "type": "module",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/ekros/x402-invoice-precheck-example.git" },
+  "scripts": {
+    "quote": "tsx src/agent.ts --quote",
+    "check": "tsx src/agent.ts",
+    "batch": "tsx src/batch.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test test/*.test.ts"
+  },
+  "engines": { "node": ">=20.12" },
+  "dependencies": {
+    "@x402/evm": "^2.28.0",
+    "@x402/fetch": "^2.28.0",
+    "viem": "^2.57.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.23.15",
+    "typescript": "^5.6.0"
+  }
+}

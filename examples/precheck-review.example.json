@@ -1,0 +1,44 @@
+{
+  "verdict": "review",
+  "issues": [
+    "IBAN country (LT) differs from VAT country (DE). Can be legitimate, but it is a common invoice-fraud signal: confirm bank details through a known channel."
+  ],
+  "vat": {
+    "input": "DE811569869",
+    "normalized": "DE811569869",
+    "countryCode": "DE",
+    "number": "811569869",
+    "formatValid": true,
+    "vies": {
+      "status": "valid",
+      "name": null,
+      "address": null,
+      "requestDate": "2026-10-26T17:57:46.378Z",
+      "cached": true
+    }
+  },
+  "iban": {
+    "input": "LT121000011101001000",
+    "normalized": "LT121000011101001000",
+    "valid": true,
+    "country": "LT",
+    "formatted": "LT12 1000 0111 0100 1000"
+  },
+  "countryMatch": {
+    "vatCountry": "DE",
+    "ibanCountry": "LT",
+    "match": false
+  },
+  "dueDate": {
+    "issueDate": "2026-11-02",
+    "paymentTermDays": 30,
+    "country": "DE",
+    "region": null,
+    "nominalDueDate": "2026-12-02",
+    "dueDate": "2026-12-02",
+    "adjusted": false,
+    "skipped": [],
+    "warnings": [],
+    "rule": "issueDate + paymentTermDays calendar days, moved forward to the next business day (weekends and national/regional public holidays)."
+  }
+}

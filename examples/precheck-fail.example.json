@@ -1,0 +1,45 @@
+{
+  "verdict": "fail",
+  "issues": [
+    "IBAN: checksum (mod 97) failed"
+  ],
+  "vat": {
+    "input": "DE811569869",
+    "normalized": "DE811569869",
+    "countryCode": "DE",
+    "number": "811569869",
+    "formatValid": true,
+    "vies": {
+      "status": "valid",
+      "name": null,
+      "address": null,
+      "requestDate": "2026-10-26T17:57:46.378Z",
+      "cached": true
+    }
+  },
+  "iban": {
+    "input": "DE89370400440532013001",
+    "normalized": "DE89370400440532013001",
+    "valid": false,
+    "country": "DE",
+    "formatted": "DE89 3704 0044 0532 0130 01",
+    "reason": "checksum (mod 97) failed"
+  },
+  "countryMatch": {
+    "vatCountry": "DE",
+    "ibanCountry": "DE",
+    "match": true
+  },
+  "dueDate": {
+    "issueDate": "2026-11-02",
+    "paymentTermDays": 30,
+    "country": "DE",
+    "region": null,
+    "nominalDueDate": "2026-12-02",
+    "dueDate": "2026-12-02",
+    "adjusted": false,
+    "skipped": [],
+    "warnings": [],
+    "rule": "issueDate + paymentTermDays calendar days, moved forward to the next business day (weekends and national/regional public holidays)."
+  }
+}

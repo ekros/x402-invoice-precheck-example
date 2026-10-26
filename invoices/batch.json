@@ -1,0 +1,5 @@
+[
+  { "invoiceNumber": "INV-A-1001", "supplier": "Supplier A", "vatNumber": "DE811569869", "iban": "DE89370400440532013000", "amountEur": 1200.0, "issueDate": "2026-11-02", "paymentTermDays": 30 },
+  { "invoiceNumber": "INV-B-0077", "supplier": "Supplier B", "vatNumber": "DE811569869", "iban": "LT121000011101001000", "amountEur": 4870.0, "issueDate": "2026-11-02", "paymentTermDays": 30 },
+  { "invoiceNumber": "INV-C-5531", "supplier": "Supplier C", "vatNumber": "DE811569869", "iban": "DE89370400440532013001", "amountEur": 310.5, "issueDate": "2026-11-02", "paymentTermDays": 30 }
+]
